@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  justify-content: flex-end;
+  padding-left: 20px;
+  align-items: flex-start;
+}
+.checkout-form input {
+  padding: 8px;
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
+}
+.checkout-form button {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+.checkout-form button:hover {
+  cursor: pointer;
+  transform: scale(0.99);
+}
+.main-checkout {
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+}
+.cart table img {
+  width: 40px;
+}
+.cart table {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 600px;
+  height: auto;
+}
+.payment-cart {
+  width: 50%;
+}

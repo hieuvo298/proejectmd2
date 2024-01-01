@@ -1,0 +1,52 @@
+.banner-4 img {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .banner-4 {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .banner-4 h3 {
+    padding-bottom: 30px;
+  }
+  .shoes-product {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+  }
+  .shoes-product::-webkit-scrollbar{
+    display: none;
+  }
+  .shoes-product-item img {
+    object-fit: cover;
+    width: 430px;
+  }
+  .shoes-product-item {
+    width: 30%;
+    margin-right: 40px;
+    padding-bottom: 80px;
+  }
+  h5{
+    font-size: 18px;
+  }
+  .banner-5 img{
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .banner-5 {
+    text-align: center;
+  }
+  .popular-product{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+  }
+  .popular-product-info img{
+    width:330px ;
+    object-fit: cover ;
+  }
+  .popular-product-info{
+    width: 38%;
+    margin-right: 20px;
+  }

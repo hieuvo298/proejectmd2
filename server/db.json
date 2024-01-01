@@ -1,0 +1,565 @@
+{
+  "orders": [
+    {
+      "idUser": 6,
+      "userName": "hieu",
+      "phone": "13123",
+      "address": "hieu123",
+      "totalPrice": 27873000,
+      "status": 1,
+      "date": "2024-01-01T07:04:01.210Z",
+      "orderDetails": [
+        {
+          "id": 1,
+          "productName": "Jordan Retro 6 G ",
+          "quantity": 2,
+          "price": "6459000",
+          "shoeSize": 41,
+          "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan1.png?alt=media&token=fe6cb631-0d9a-429c-8565-53ecb8a8cf13"
+        },
+        {
+          "id": 2,
+          "productName": "Air Jordan 1 Low",
+          "quantity": 3,
+          "price": "4985000",
+          "shoeSize": 42,
+          "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan2.png?alt=media&token=c3e27faf-e140-460f-91f0-530bf83f09aa"
+        }
+      ],
+      "paymentMethod": "",
+      "id": 1
+    },
+    {
+      "idUser": 6,
+      "userName": "hieu",
+      "phone": "12312312",
+      "address": "dlkjhdhjk",
+      "totalPrice": 27873000,
+      "status": 1,
+      "date": "2024-01-01T07:05:21.776Z",
+      "orderDetails": [
+        {
+          "id": 1,
+          "productName": "Jordan Retro 6 G ",
+          "quantity": 2,
+          "price": "6459000",
+          "shoeSize": 41,
+          "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan1.png?alt=media&token=fe6cb631-0d9a-429c-8565-53ecb8a8cf13"
+        },
+        {
+          "id": 2,
+          "productName": "Air Jordan 1 Low",
+          "quantity": 3,
+          "price": "4985000",
+          "shoeSize": 42,
+          "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan2.png?alt=media&token=c3e27faf-e140-460f-91f0-530bf83f09aa"
+        }
+      ],
+      "paymentMethod": "",
+      "id": 2
+    },
+    {
+      "idUser": 6,
+      "userName": "hieu",
+      "phone": "1231232",
+      "address": "qựhdqư",
+      "totalPrice": 3589000,
+      "status": 1,
+      "date": "2024-01-01T07:06:38.185Z",
+      "orderDetails": [
+        {
+          "id": 1,
+          "productName": "Air Jordan 1 Mid",
+          "quantity": 1,
+          "price": "3589000",
+          "shoeSize": 41,
+          "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan3.png?alt=media&token=fab1d5fc-d828-4637-a724-995fa4a029e0"
+        }
+      ],
+      "paymentMethod": "",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "hieu12@gmail.com",
+      "password": "$2a$10$NkMjaf8o4zrXPXJdDOH0pecUPFNwoBObriedHRm0G1DUqX6Z2dU4m",
+      "username": "hieu",
+      "role": 1,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan1.png?alt=media&token=fe6cb631-0d9a-429c-8565-53ecb8a8cf13",
+      "productname": "Jordan Retro 6 G ",
+      "price": "6459000",
+      "isDelete": false,
+      "category": "Jordan",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 10
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ],
+      "stock": null
+    },
+    {
+      "id": 2,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan2.png?alt=media&token=c3e27faf-e140-460f-91f0-530bf83f09aa",
+      "productname": "Air Jordan 1 Low",
+      "price": "4985000",
+      "isDelete": "1",
+      "category": "Jordan",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 16
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 18
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 22
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan3.png?alt=media&token=fab1d5fc-d828-4637-a724-995fa4a029e0",
+      "productname": "Air Jordan 1 Mid",
+      "price": "3589000",
+      "isDelete": "1",
+      "category": "Jordn",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 41,
+          "stock": 11
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan4.png?alt=media&token=f723759e-fc84-4e90-83ce-97bf448351f9",
+      "productname": "Air Jordan 2 Mid",
+      "price": "3889000",
+      "isDelete": "1",
+      "category": "Jordan",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": "40",
+          "stock": "16"
+        },
+        {
+          "sizeNumber": "42",
+          "stock": "12"
+        },
+        {
+          "sizeNumber": "43",
+          "stock": "26"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan5.png?alt=media&token=58d7bc8a-a742-4c9c-aff7-ffb1add64438 ",
+      "productname": "Air Jordan 3 Mid",
+      "price": "3289000",
+      "isDelete": "1",
+      "category": "Jordan",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 45,
+          "stock": 10
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 20
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 42
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 36
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Jordan-img%2Fjordan6.png?alt=media&token=73540ca6-b554-4f7e-ac4c-9cbdc4a3d9d5",
+      "productname": "Air Jordan 1 Mid",
+      "price": "4589000",
+      "isDelete": "1",
+      "category": "Jordan",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 20
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 29
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 32
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 26
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Fkisspng-sneakers-nike-shoe-running-new-balance-england-tidal-shoes-5b0a5b1b1d39f0.7557538715274053391197.png?alt=media&token=7ed8c117-ac79-4115-ae96-130f1cb5ee31 ",
+      "productname": "Nike Structure 25",
+      "price": "3829000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 22
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 36
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Frunning9.png?alt=media&token=0b665ff7-e200-42db-b8ed-5943a20872eb",
+      "productname": "Nike Invincible 3",
+      "price": "2800000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 41,
+          "stock": 14
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 44,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Frunning3.png?alt=media&token=cc6aee2e-c03d-4103-953f-4fb0bb26788c",
+      "productname": "Nike Pegasus 40",
+      "price": "2600000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 8
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 11
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Frunning4.png?alt=media&token=808e247a-e987-4b01-9534-025fcbe3f6c1",
+      "productname": "Nike InfinityRN 4",
+      "price": "4100000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 22
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 36
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Frunning5.png?alt=media&token=dc1c89dd-cbe1-412a-9468-a6416db6955a",
+      "productname": "Nike Interact Run",
+      "price": "3800000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 10
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 19
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 32
+        },
+        {
+          "sizeNumber": 45,
+          "stock": 26
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/running-img%2Frunning6.png?alt=media&token=0b676393-8664-41bd-a23c-849abc2cf1cb",
+      "productname": "Nike Pegasus Shield",
+      "price": "4900000",
+      "isDelete": "1",
+      "category": "running",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 10
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2F1.png?alt=media&token=ce6e0dfd-489a-42d6-a54f-8ccda14365f2",
+      "productname": "Nike Pegasus Shield",
+      "price": "3500000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 10
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 44,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2F2.png?alt=media&token=985be4ad-1a60-44ce-aadb-9c6d8f2dce70",
+      "productname": "Nike Structure 25",
+      "price": "2960000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 22
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 11
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2F3.png?alt=media&token=4492f8cb-bb16-4c8c-a2bf-149908a8041a",
+      "productname": "NNike Pegasus 40",
+      "price": "38200000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 20
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 29
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 13
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2F4.png?alt=media&token=adf344df-a568-4309-835c-6001da973132",
+      "productname": "Nike Zoom Fly 5",
+      "price": "2850000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 20
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 29
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 36
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2F5.png?alt=media&token=25342417-3f4a-4ce6-b9f7-9498c24b187d",
+      "productname": "Nike InfinityRN 4 GORE-TEX",
+      "price": "2230000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 20
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 39
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "img": "https://firebasestorage.googleapis.com/v0/b/myproject-12c2b.appspot.com/o/Lifestyle-img%2Fkisspng-nike-air-max-1-premium-mens-nike-air-max-1-mens-nike-air-max-1-dark-stucco-vivid-sulfur-men-5bae61b438c0a9.5324292415381549322325.png?alt=media&token=0dc9251f-a42e-49de-bc8c-7c95045065c8",
+      "productname": "Nike Alphafly 2 Eliud Kipchoge",
+      "price": "8059000",
+      "isDelete": "1",
+      "category": "lifestyle",
+      "description": "",
+      "size": [
+        {
+          "sizeNumber": 40,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 41,
+          "stock": 9
+        },
+        {
+          "sizeNumber": 42,
+          "stock": 12
+        },
+        {
+          "sizeNumber": 43,
+          "stock": 16
+        }
+      ]
+    }
+  ]
+}

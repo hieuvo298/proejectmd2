@@ -1,0 +1,46 @@
+.fav-item {
+  margin-top: 30px;
+  width: 32%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.fav-item h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.fav-item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.fav-item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fav-icon-cover {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: rgb(17, 17, 17);
+  background: rgb(255, 255, 255);
+  height: 38px;
+  width: 38px;
+  padding: 6px;
+  border-radius: 50%;
+}
+.fav-icon {
+  color: rgb(17, 17, 17);
+  background: rgb(255, 255, 255);
+  height: 28px;
+  width: 28px;
+  padding: 4px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fav-container{
+  display: flex ;
+  gap: 26px;
+  flex-wrap: wrap;
+}

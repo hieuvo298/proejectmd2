@@ -1,0 +1,26 @@
+.nav-bar li{
+    list-style: none;
+    text-align: center;
+
+}
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.avatar-profile {
+    width: 100px;
+    height: 100px;
+    background-size: 96px 96px;
+}
+.avatar-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(229, 229, 229);
+    background-size: 60px 60px;
+}

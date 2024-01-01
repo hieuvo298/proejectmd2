@@ -1,0 +1,48 @@
+
+ul li a{
+  text-decoration: none;
+  color:black;
+  width: 100%;
+
+}
+.sidebar-link{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #ddd;
+}
+
+
+.sidebar ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.sidebar ul .list-item {
+  cursor: pointer;
+  font-weight: 600;
+  color: #938c8c;
+  list-style: none;
+  padding:  10px;
+}
+
+.sidebar ul .list-item:hover {
+  background-color: #fff;
+}
+
+.list-item.active {
+  background-color: #fff;
+}

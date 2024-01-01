@@ -1,0 +1,95 @@
+
+.product-item {
+  display: flex;
+  padding-top: 50px;
+}
+.main-product-img{
+  width: 100%;
+}
+.main-product-img img {
+  width: 90%;
+  height: 90vh;
+  object-fit: contain;
+  background-color: #F6F6F6;
+}
+.product-item i {
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: white;
+  padding: 8px;
+}
+.product-des h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+.next-product-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(40vw);
+  cursor: pointer;
+}
+.product-des {
+  line-height: 40px;
+  flex: 1;
+}
+.size-product  {
+  display: flex;
+  align-items: flex-start;
+  width: 700px;
+  text-align: center;
+}
+/* .size-product span {
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+    width: 28%;
+    margin-top: 10px;
+    margin-right: 5px;
+} */
+.size-product  :hover{
+    cursor: pointer;
+    border-color: black;
+}
+.add-like-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.add-btn  {
+    padding: 20px 50px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+}
+.like-btn i {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+.like-btn{
+    padding: 20px 50px;
+    border-radius: 50px;
+    width: 50%;
+    background-color: white;
+    border-color:#F6F6F6 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.add-btn:hover{
+    border-color: #F6F6F6;
+}
+.like-btn:hover{
+    cursor: pointer;
+    border-color:black ;
+}
+.heart-icon{
+  font-size: 20px;
+}
